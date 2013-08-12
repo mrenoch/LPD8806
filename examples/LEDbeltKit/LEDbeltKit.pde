@@ -66,6 +66,9 @@ void loop() {
   // Back-and-forth lights
   scanner(127,0,0, 30);        // red, slow
   scanner(0,0,127, 15);        // blue, fast
+  scanner(0,127,0, 30);        // green, slow
+  scanner(127,127,0, 15);      // yellow, fast
+
 
   // Wavy ripple effects
   wave(strip.Color(127,0,0), 4, 20);        // candy cane
